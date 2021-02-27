@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica2.Views.GridUI">
+    <ContentPage.Content>
+        <Grid RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Text="Label1" BackgroundColor="Red" />
+            <Label Grid.Row="0" Grid.Column="1" Text="Label2" BackgroundColor="Blue" />
+            <Label Grid.Row="1" Grid.Column="0" Text="Label3" BackgroundColor="Yellow" />
+            <Label Grid.Row="1" Grid.Column="1" Text="Label4" BackgroundColor="Green" />
+            <Label Grid.Row="2" Grid.Column="0" Text="Label5" BackgroundColor="Black" />
+            <Label Grid.Row="2" Grid.Column="1" Text="Label6" BackgroundColor="White" />
+            
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
